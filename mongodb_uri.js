@@ -1,1 +1,1 @@
-MONGODB_URI = "mongodb://heroku_gl97rz36:kkrgnbqalpuel864mrc5ioilrf@ds245234.mlab.com:45234/heroku_gl97rz36"
+MONGODB_URI: mongodb: "mongodb://heroku_gl97rz36:kkrgnbqalpuel864mrc5ioilrf@ds245234.mlab.com:45234/heroku_gl97rz36"
