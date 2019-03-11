@@ -21,9 +21,8 @@ app.use(routes);
 
 mongoose.Promise = Promise;
 
-mongoose.connect=process.env.MONGODB_URI || ("mongodb://heroku_gl97rz36:kkrgnbqalpuel864mrc5ioilrf@ds245234.mlab.com:45234/heroku_gl97rz36" , {
+mongoose.connect=process.env.MONGODB_URI || "mongodb://heroku_gl97rz36:kkrgnbqalpuel864mrc5ioilrf@ds245234.mlab.com:45234/heroku_gl97rz36";
 	useMongoClient: true
-});
 
 // var MONGODB_URI =
 //   process.env.MONGODB_URI || "mongodb://localhost/newsscraperdb";
